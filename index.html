@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Noticify</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content"> Skip to content </a>
+    <header class="container">
+      <a class="logo" href="index.html">Noticify</a>
+      <nav>
+        <ul class="dropdown" id="categories-menu">
+          <li class="hasDropdown">
+            <a class="navLabel" href="#categories-menu">Categories ▾</a>
+            <ul class="dropdown">
+              <li><a href="#">Office</a></li>
+              <li><a href="#">Animals</a></li>
+              <li><a href="#">Money</a></li>
+              <li><a href="#">Jobs</a></li>
+            </ul>
+          </li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container" id="main-content" tabindex="-1">
+      <section class="intro">
+        <h1>Welcome to Noticify!</h1>
+        <p class="large">
+          A digital notice board where you can find everything! Also, I’m very
+          good at writing these descriptive texts. Have a good day. Stay in
+          school etc.
+        </p>
+        <div class="buttonGroup">
+          <a>
+            class="btn" href="about.html" Learn more
+            <span class="btnArrow">
+              <img src="images/arrow-black.svg" alt="" />
+            </span>
+          </a>
+          <a class="btn secondary" href="contact.html">
+            Contact us
+            <span class="btnArrow">
+              <img src="images/arrow-black.svg" alt="" />
+            </span>
+          </a>
+        </div>
+      </section>
+      <section class="cards">
+        <article class="card">
+          <div class="tags">
+            <span class="tag blue">Office</span>
+            <span class="tag yellow">Gothenburg</span>
+          </div>
+          <h2>An amazing office space</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam,
+          </p>
+          <button
+            class="cardButton"
+            aria-label="Read more about An amazing space"
+          >
+            <img src="images/arrow.svg" alt="" />
+          </button>
+        </article>
+
+        <article class="card">
+          <div class="tags">
+            <span class="tag yellow">Gothenburg</span>
+            <span class="tag green">Animals</span>
+          </div>
+          <h2>Have you seen my cat?</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod
+          </p>
+          <button
+            class="cardButton"
+            aria-label="Read more about Have you seen my cat?"
+          >
+            <img src="images/arrow.svg" alt="" />
+          </button>
+        </article>
+        <article class="card">
+          <div class="tags">
+            <span class="tag yellow">Gothenburg</span>
+            <span class="tag pink">Money</span>
+          </div>
+          <h2>Win 5 million dollars!</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labo.
+          </p>
+          <button
+            class="cardButton"
+            aria-label="Read more about Win 5 million dollars"
+          >
+            <img src="images/arrow.svg" alt="" />
+          </button>
+        </article>
+        <article class="card">
+          <div class="tags">
+            <span class="tag yellow">Gothenburg</span>
+            <span class="tag green">Jobs</span>
+          </div>
+          <h2>Developers! Look at this.</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmodLorem ipsum dolor sit amet, cons
+          </p>
+          <button
+            class="cardButton"
+            aria-label="Read more about Developers! Look at this"
+          >
+            <img src="images/arrow.svg" alt="" />
+          </button>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
